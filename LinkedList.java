@@ -7,6 +7,9 @@ public class LinkedList {
 	Node first;
 	Node last;
 
+	/**
+	 * A Pointer class to point to the current element in the LinkedList.
+	 */
 	class Pointer {
 		Node position;
 
@@ -118,6 +121,9 @@ public class LinkedList {
 		}
 	}
 
+	/**
+	 * Creates a node.
+	 */
 	class Node {
 		Object data;
 		Node next;
